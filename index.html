@@ -12,15 +12,20 @@
 <h1 id="title">freeCodeCamp Survey Form</h1>
 <p id="description">Thank you for taking the time to help us improve the platform</p >
 
-      </header>
-      <form id="survey-form">
-        <div class="form-element">
+</header>
+<form id="survey-form">
+<div class="form-element">
+<div class="form-group">
 <label for="" id="name-label">Name</label>
-<input id="name" type="text" placeholder="Enter Name" required>
+
+<input id="name" type="text" class="form-controls" placeholder="Enter Name" required>
+
 <label for="" id="email-label">Email</label>
-<input id="email"  type="email" placeholder="Enter Email" required>
+<input id="email"  type="email" class="form-controls" placeholder="Enter Email" required>
 <label for="" id="number-label">Age <span>(optional)</span></label>
-<input id="number" type="number" min="10" max="99" placeholder="Enter Age">
+
+<input id="number" type="number" class="form-controls" min="10" max="99" placeholder="Enter Age">
+
 <p>Which option best describes your current role?</p >
 <select name="" id="">
   <option value="student">Student</option>
@@ -32,15 +37,15 @@
 <div>
 <p>Would you recommend freeCodeCamp to a friend?</p >
 <label for="">
-  <input type="radio" value="defintely" name ="recommend" id="">
+  <input type="radio" class="form-controls" value="defintely" name ="recommend" id="">
   Definitely
 </label>
 <label for="">
-  <input type="radio" name ="recommend" value = "maybe" id="">
+  <input type="radio" class="form-controls" name ="recommend" value = "maybe" id="">
   Maybe
 </label>
 <label for="">
-  <input type="radio"  name ="recommend" value = "notsure">
+  <input type="radio"  class="form-controls" name ="recommend" value = "notsure">
   Not sure
 </label>
 </div>
@@ -58,11 +63,11 @@
 <div>
   <p>What would you like to see improved? <span>(Check all that apply)</span></p >
 <label for="">
-<input value="front-end" type="checkbox">
+<input class="form-controls" value="front-end" type="checkbox">
 Front-end Projects
 </label>
 <label for="">
-  <input value="backend" type="checkbox">
+  <input class="form-controls" value="backend" type="checkbox">
   Back-end Projects
   </label>
   <label for="">
@@ -74,7 +79,7 @@ Front-end Projects
       Challenges
       </label>
       <label for="">
-        <input value="opensource" type="checkbox">
+        <input class="form-controls" value="opensource" type="checkbox">
         open Source community
         </label>
         <label for="">
@@ -109,7 +114,7 @@ Front-end Projects
   <button type="submit" id="submit">Submit</button>
 </div>
 
-
+</div>
 
 </div>
 
@@ -118,6 +123,17 @@ Front-end Projects
 
     </div>
 
+
+
+
+
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <script  src="js/index.js"></script>
+  </body>
+</html>
 
 
 
