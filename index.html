@@ -10,10 +10,10 @@
     <div class="container">
       <header class="header">
 <h1 id="title">freeCodeCamp Survey Form</h1>
-<p id="description">Thank you for taking the time to help us improve the platform</p>
+<p id="description">Thank you for taking the time to help us improve the platform</p >
 
       </header>
-      <form id="form-survey">
+      <form id="survey-form">
         <div class="form-element">
 <label for="" id="name-label">Name</label>
 <input id="name" type="text" placeholder="Enter Name" required>
@@ -21,88 +21,88 @@
 <input id="email"  type="email" placeholder="Enter Email" required>
 <label for="" id="number-label">Age <span>(optional)</span></label>
 <input id="number" type="number" min="10" max="99" placeholder="Enter Age">
-<p>Which option best describes your current role?</p>
+<p>Which option best describes your current role?</p >
 <select name="" id="">
-  <option value="">Student</option>
-  <option value="">Full Time Job</option>
-  <option value="">Full Time Learner</option>
-  <option value="">Prefer Not To Say</option>
-  <option value="">Other</option>
+  <option value="student">Student</option>
+  <option value="full-time">Full Time Job</option>
+  <option value="full-learner">Full Time Learner</option>
+  <option value="no-say">Prefer Not To Say</option>
+  <option value="other">Other</option>
 </select>
 <div>
-<p>Would you recommend freeCodeCamp to a friend?</p>
+<p>Would you recommend freeCodeCamp to a friend?</p >
 <label for="">
-  <input type="radio" name="" id="">
+  <input type="radio" value="defintely" name ="recommend" id="">
   Definitely
 </label>
 <label for="">
-  <input type="radio" name="" id="">
+  <input type="radio" name ="recommend" value = "maybe" id="">
   Maybe
 </label>
 <label for="">
-  <input type="radio">
+  <input type="radio"  name ="recommend" value = "notsure">
   Not sure
 </label>
 </div>
 
 <div>
-  <p>What is your favorite feature of freeCodeCamp?</p>
+  <p>What is your favorite feature of freeCodeCamp?</p >
   <select name="" id="dropdown">
-    <option value="" disabled>Select an Option</option>
-    <option value="">Challenges</option>
-    <option value="">Project</option>
-    <option value="">Community</option>
-    <option value="">Open Source</option>
+ <option name ="recommend" value="select" disabled>Select an Option</option>
+    <option name ="recommend" value="challenges">Challenges</option>
+    <option name ="recommend" value="project">Project</option>
+    <option name ="recommend" value="community">Community</option>
+    <option name ="recommend" value="opensource">Open Source</option>
   </select>
 </div>
 <div>
-  <p>What would you like to see improved? <span>(Check all that apply)</span></p>
+  <p>What would you like to see improved? <span>(Check all that apply)</span></p >
 <label for="">
-<input type="checkbox">
+<input value="front-end" type="checkbox">
 Front-end Projects
 </label>
 <label for="">
-  <input type="checkbox">
+  <input value="backend" type="checkbox">
   Back-end Projects
   </label>
   <label for="">
-    <input type="checkbox">
+    <input value="data" type="checkbox">
     Data Visualization
     </label>
     <label for="">
-      <input type="checkbox">
+      <input value="challenges" type="checkbox">
       Challenges
       </label>
       <label for="">
-        <input type="checkbox">
+        <input value="opensource" type="checkbox">
         open Source community
         </label>
         <label for="">
-          <input type="checkbox">
+          <input value="gitter" type="checkbox">
           Gitter help rooms
           </label>
           <label for="">
-            <input type="checkbox">
+            <input value="videos" type="checkbox">
             Videos
             </label>
             <label for="">
-              <input type="checkbox">
+              <input value="city" type="checkbox">
               City Meetups
               </label>
               <label for="">
-                <input type="checkbox">
+                <input value="wiki" type="checkbox">
                 Wiki
                 </label>
                 <label for="">
-                  <input type="checkbox">
+                  <input value="forum" type="checkbox">
                   Forum
                   </label>
-                  <label for="">
-                    <input type="checkbox">
+                  <label value="additional-courses" for="">
+                    <input value="additional-courses" type="checkbox">
                     Additional Courses
                     </label>
     <div>
-      <p>Any comments or suggestions?</p>
+      <p>Any comments or suggestions?</p >
       <textarea name="" id="comments" placeholder="Enter your comment..."></textarea>
     </div>
 <div>
